@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5BE06EB2ACD987D000FC1F9 /* Dices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE06EB2ACD987D000FC1F9 /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BE06EE2ACD987D000FC1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5BE06F02ACD987D000FC1F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5BE06F22ACD987D000FC1F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		A5BE06F72ACD987F000FC1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5BE06FA2ACD987F000FC1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5BE06FC2ACD987F000FC1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5BE07012ACD987F000FC1F9 /* DicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE07012ACD987F000FC1F9 /* DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BE07052ACD987F000FC1F9 /* DicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicesTests.swift; sourceTree = "<group>"; };
-		A5BE070B2ACD987F000FC1F9 /* DicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE070B2ACD987F000FC1F9 /* DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BE070F2ACD987F000FC1F9 /* DicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicesUITests.swift; sourceTree = "<group>"; };
 		A5BE07112ACD987F000FC1F9 /* DicesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		A5BE06EC2ACD987D000FC1F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5BE06EB2ACD987D000FC1F9 /* Dices.app */,
-				A5BE07012ACD987F000FC1F9 /* DicesTests.xctest */,
-				A5BE070B2ACD987F000FC1F9 /* DicesUITests.xctest */,
+				A5BE06EB2ACD987D000FC1F9 /* DiceGame.app */,
+				A5BE07012ACD987F000FC1F9 /* DiceGameTests.xctest */,
+				A5BE070B2ACD987F000FC1F9 /* DiceGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5BE06EA2ACD987D000FC1F9 /* Dices */ = {
+		A5BE06EA2ACD987D000FC1F9 /* DiceGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5BE07152ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "Dices" */;
+			buildConfigurationList = A5BE07152ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DiceGame" */;
 			buildPhases = (
 				A5BE06E72ACD987D000FC1F9 /* Sources */,
 				A5BE06E82ACD987D000FC1F9 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Dices;
+			name = DiceGame;
 			productName = Dices;
-			productReference = A5BE06EB2ACD987D000FC1F9 /* Dices.app */;
+			productReference = A5BE06EB2ACD987D000FC1F9 /* DiceGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A5BE07002ACD987F000FC1F9 /* DicesTests */ = {
+		A5BE07002ACD987F000FC1F9 /* DiceGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5BE07182ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DicesTests" */;
+			buildConfigurationList = A5BE07182ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DiceGameTests" */;
 			buildPhases = (
 				A5BE06FD2ACD987F000FC1F9 /* Sources */,
 				A5BE06FE2ACD987F000FC1F9 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				A5BE07032ACD987F000FC1F9 /* PBXTargetDependency */,
 			);
-			name = DicesTests;
+			name = DiceGameTests;
 			productName = DicesTests;
-			productReference = A5BE07012ACD987F000FC1F9 /* DicesTests.xctest */;
+			productReference = A5BE07012ACD987F000FC1F9 /* DiceGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A5BE070A2ACD987F000FC1F9 /* DicesUITests */ = {
+		A5BE070A2ACD987F000FC1F9 /* DiceGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5BE071B2ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DicesUITests" */;
+			buildConfigurationList = A5BE071B2ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DiceGameUITests" */;
 			buildPhases = (
 				A5BE07072ACD987F000FC1F9 /* Sources */,
 				A5BE07082ACD987F000FC1F9 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				A5BE070D2ACD987F000FC1F9 /* PBXTargetDependency */,
 			);
-			name = DicesUITests;
+			name = DiceGameUITests;
 			productName = DicesUITests;
-			productReference = A5BE070B2ACD987F000FC1F9 /* DicesUITests.xctest */;
+			productReference = A5BE070B2ACD987F000FC1F9 /* DiceGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5BE06E62ACD987D000FC1F9 /* Build configuration list for PBXProject "Dices" */;
+			buildConfigurationList = A5BE06E62ACD987D000FC1F9 /* Build configuration list for PBXProject "DiceGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5BE06EA2ACD987D000FC1F9 /* Dices */,
-				A5BE07002ACD987F000FC1F9 /* DicesTests */,
-				A5BE070A2ACD987F000FC1F9 /* DicesUITests */,
+				A5BE06EA2ACD987D000FC1F9 /* DiceGame */,
+				A5BE07002ACD987F000FC1F9 /* DiceGameTests */,
+				A5BE070A2ACD987F000FC1F9 /* DiceGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		A5BE07032ACD987F000FC1F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5BE06EA2ACD987D000FC1F9 /* Dices */;
+			target = A5BE06EA2ACD987D000FC1F9 /* DiceGame */;
 			targetProxy = A5BE07022ACD987F000FC1F9 /* PBXContainerItemProxy */;
 		};
 		A5BE070D2ACD987F000FC1F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5BE06EA2ACD987D000FC1F9 /* Dices */;
+			target = A5BE06EA2ACD987D000FC1F9 /* DiceGame */;
 			targetProxy = A5BE070C2ACD987F000FC1F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -509,7 +509,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiceGame";
 			};
 			name = Debug;
 		};
@@ -529,7 +529,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dices";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiceGame";
 			};
 			name = Release;
 		};
@@ -572,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5BE06E62ACD987D000FC1F9 /* Build configuration list for PBXProject "Dices" */ = {
+		A5BE06E62ACD987D000FC1F9 /* Build configuration list for PBXProject "DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5BE07132ACD987F000FC1F9 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5BE07152ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "Dices" */ = {
+		A5BE07152ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5BE07162ACD987F000FC1F9 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5BE07182ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DicesTests" */ = {
+		A5BE07182ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DiceGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5BE07192ACD987F000FC1F9 /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5BE071B2ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DicesUITests" */ = {
+		A5BE071B2ACD987F000FC1F9 /* Build configuration list for PBXNativeTarget "DiceGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5BE071C2ACD987F000FC1F9 /* Debug */,
